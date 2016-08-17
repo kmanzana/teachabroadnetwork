@@ -11,8 +11,8 @@ development:
   continuous_testing: guard
   frontend: bootstrap3
   email: none
-  authentication: devise
-  devise_modules: confirmable
+  authentication: none
+  devise_modules: 
   omniauth_provider: 
   authorization: pundit
   form_builder: simple_form
@@ -27,4 +27,4 @@ development:
   better_errors: 
   pry: 
   rvmrc: 
-  dashboard: none
+  dashboard: 

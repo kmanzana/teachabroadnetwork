@@ -15,7 +15,7 @@ development:
   devise_modules: 
   omniauth_provider: 
   authorization: pundit
-  form_builder: none
+  form_builder: simple_form
   pages: home
   layouts: landing_page
   locale: 

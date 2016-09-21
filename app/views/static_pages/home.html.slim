@@ -1,10 +1,16 @@
-div.my-container
+div.container.banner
+  header.top-nav
+    div.pull-left
+      = image_tag 'logo.png', class: 'img-responsive'
+    div.pull-right
+      a.btn.btn-default href='//teachabroadnetwork.com/signup' Join for free
 
-header.header
-  = image_tag 'logo.png', class: 'img-responsive'
-  a href='//teachabroadnetwork.com/signup' Join for free
-
-div.container
-  h1 The Online Professional Network for Educators
-  p 80% of job seekers use networking websites in their job search. What about you?
+  div.container
+    h1.main-title Welcome to Teach Abroad Network
+    h4.sub-title The first online professional network for educators to find the best jobs, hire qualified talent, and connect with peers.
+    div.separator
+    p.account-prompt Create a free account
+    div.buttons
+      a.btn.btn-primary href='#' I'm an Employer
+      a.btn.btn-default href='#' I'm a Job-seeker
 

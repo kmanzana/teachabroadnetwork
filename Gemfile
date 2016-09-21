@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.3.1'
 gem 'rails'
-gem 'mysql2'
+gem 'sqlite3'
+# gem 'mysql2'
 gem 'puma'
 
 # asset pipeline gems

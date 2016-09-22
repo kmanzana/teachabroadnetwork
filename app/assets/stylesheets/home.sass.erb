@@ -16,11 +16,21 @@ body
     margin-bottom: 36px
 
   .sub-title
-    width: 85%
+    @media (min-width: 768px)
+      width: 50%
+
+    @media (max-width: 768px)
+      width: 85%
+
     margin: 0 auto 50px
 
   .separator
-    width: 95%
+    @media (min-width: 768px)
+      width: 50%
+
+    @media (max-width: 768px)
+      width: 95%
+
     height: 1px
     background: #333333
     margin: 0 auto
